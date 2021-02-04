@@ -1,0 +1,4 @@
+1. WAP to Count the Sum of Digits of a Integer.
+2. WAP to Determine the Largest Number among the three numbers entered by the User.
+3. WAP C program to find the value of nCr(Combination).
+4. WAP to Check if input Number in Armstrong Number.
