@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int n, r, f, fn = 1, fr = 1, fi = 1, i;
+    scanf("%d", &n);
+    scanf("%d", &r);
+    i = n - r;
+
+    while (n >= 1)
+    {
+        fn = fn * n;
+        n--;
+    }
+
+    while (r >= 1)
+    {
+        fr = fr * r;
+        r--;
+    }
+
+    while (i >= 1)
+    {
+        fi = fi * i;
+        i--;
+    }
+
+    f = (fn / (fi * fr));
+
+    printf("%d", f);
+}

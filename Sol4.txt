@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int n, i, s = 0, t;
+    scanf("%d",&n);
+    t = n;
+    while (t > 0)
+    {
+        i = t % 10;
+        s = s + i * i * i;
+        t = t / 10;
+    }
+    if (n == s)
+        printf("An Armstrong Number");
+    else
+        printf("Not an Armstrong Number");
+}
